@@ -14,8 +14,8 @@ VMWare cloud on AWS with VMware Default Cluster Creation example:
 
 ```hcl
 module "vmware_sddc" {
-  source                      = "app.terraform.io/<ORG_NAME>/sddc/vmc"
-  version                     = "1.0.0"
+  source                  = "app.terraform.io/<ORG_NAME>/sddc/vmc"
+  version                 = "1.0.0"
   vmc_api_token           = "<VMC API TOKEN>"
   aws_account_number      = "<AWS ACCOUNT ID>"
   vmc_org_id              = "<ORG_LONG_ID>"
