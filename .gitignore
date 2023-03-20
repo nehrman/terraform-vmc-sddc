@@ -12,3 +12,4 @@
 .terraform/
 .terraformrc
 .terraform.d/
+.terraform.tfstate.lock.info
